@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Inspirational Calendar",
+  "description": "This extension is a calendar that shares an inspirational quote every day.",
+  "version": "1.0",
+
+  "permissions":[],
+  "browser_action":{}
+}
