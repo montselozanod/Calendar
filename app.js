@@ -16,3 +16,8 @@ month[11] = "December";
 document.getElementById('yearCaption').innerHTML=date.getFullYear();
 document.getElementById('monthCaption').innerHTML=month[date.getMonth()];
 document.getElementById('dayCaption').innerHTML=date.getDate();
+
+
+parseResponse= function(data){
+  console.log(data.data.contents.quote);
+}
