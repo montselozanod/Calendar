@@ -4,6 +4,9 @@ html,body{
   background-color: #a6715c;
   font-family: 'PT Sans Narrow', sans-serif;
 }
+.Quote{
+  text-align:center;
+}
 .Wall{
   position:relative;
 }

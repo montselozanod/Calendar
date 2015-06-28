@@ -26,7 +26,10 @@ document.getElementById('dayCaption').innerHTML=date.getDate();
   query.limit(1);
   query.find({
     success: function(result){
-      console.log(result[0].attributes.Text);
+      console.log(result[0].attributes.Author);
+      document.getElementById('text-quote').innerHTML=result[0].attributes.Text;
+      document.getElementById('author').innerHTML=result[0].attributes.Author;
+
     },
     error: function(error){
 
