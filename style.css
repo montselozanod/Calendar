@@ -8,14 +8,18 @@ html,body{
 #wrap {
    width:1000px;
    margin:0 auto;
+   padding: 5% 0;
 }
+
 #left {
    float:left;
    width:500px;
+   padding: 5% 0;
 }
 #right {
    float:right;
    width:500px;
+   padding: 15% 0;
 }
 
 .Quote{
