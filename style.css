@@ -11,12 +11,12 @@ html,body{
    padding: 5% 0;
 }
 
-#left {
+#left-col {
    float:left;
    width:500px;
    padding: 5% 0;
 }
-#right {
+#right-col {
    float:right;
    width:500px;
    padding: 15% 0;
