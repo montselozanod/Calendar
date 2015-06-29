@@ -25,6 +25,10 @@ html,body{
 .Quote{
   text-align:center;
 }
+
+#text-quote{
+  font-family: 'Special Elite', cursive;
+}
 .Wall{
   position:relative;
 }
