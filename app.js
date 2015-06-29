@@ -17,8 +17,7 @@ document.getElementById('yearCaption').innerHTML=date.getFullYear();
 document.getElementById('monthCaption').innerHTML=month[date.getMonth()];
 document.getElementById('dayCaption').innerHTML=date.getDate();
 
-  console.log("hello");
-  var quotes = 24;
+  var quotes = 40;
   Parse.initialize("CgPYspW53sotqoc1JeQfSS0PKyHq8wSIv46ODRN5", "6xQ056pcsVfjD1977ixHWqewmM9RJM5V8c8dnwoP");
   var Quote = Parse.Object.extend("Quote");
   var query = new Parse.Query(Quote);
@@ -29,7 +28,6 @@ document.getElementById('dayCaption').innerHTML=date.getDate();
       console.log(result[0].attributes.Author);
       document.getElementById('text-quote').innerHTML=result[0].attributes.Text;
       document.getElementById('author').innerHTML=result[0].attributes.Author;
-
     },
     error: function(error){
 

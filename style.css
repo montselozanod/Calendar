@@ -4,6 +4,20 @@ html,body{
   background-color: #a6715c;
   font-family: 'PT Sans Narrow', sans-serif;
 }
+
+#wrap {
+   width:1000px;
+   margin:0 auto;
+}
+#left {
+   float:left;
+   width:500px;
+}
+#right {
+   float:right;
+   width:500px;
+}
+
 .Quote{
   text-align:center;
 }
