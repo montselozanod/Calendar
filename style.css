@@ -29,6 +29,9 @@ html,body{
 #text-quote{
   font-family: 'Special Elite', cursive;
 }
+#author{
+  font-family: 'Fredericka the Great', cursive;
+}
 .Wall{
   position:relative;
 }
