@@ -111,9 +111,7 @@ html,body{
 }
 
 .or-spacer {
-  margin-top: 100px;
-  margin-left: 100px;
-  width: 400px;
+  width: 500px;
   position: relative;
 }
 .or-spacer .mask {
